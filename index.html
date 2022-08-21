@@ -18,19 +18,23 @@
     <header>
       <nav>
         <a href="/" class="logotype link-none-underline"
-          ><h3><span class="blue-text">Web</span>Studio</h3></a
+          ><h3><span class="blue-text button">Web</span>Studio</h3></a
         >
-        <ul>
+        <ul class="contacts-list">
           <li>
-            <a href="/agencja" class="agency link-none-underline">Agencja</a>
+            <a href="/agencja" class="agency link-none-underline button"
+              >Agencja</a
+            >
           </li>
           <li>
-            <a href="portfolio.html" class="portfolio link-none-underline"
+            <a
+              href="portfolio.html"
+              class="portfolio link-none-underline button"
               >Portfolio</a
             >
           </li>
           <li>
-            <a href="/kontact" class="contact-link link-none-underline"
+            <a href="/kontact" class="contact-link link-none-underline button"
               >Kontact</a
             >
           </li>
@@ -40,12 +44,12 @@
         <li>
           <a
             href="mailto:info@devstudio.com"
-            class="link-none-underline blue-text"
+            class="link-none-underline blue-text button"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a href="tel:+48111111111" class="link-none-underline contacts"
+          <a href="tel:+48111111111" class="link-none-underline contacts button"
             >+48 111 111 111</a
           >
         </li>
@@ -53,36 +57,38 @@
     </header>
 
     <main>
-      <section>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+      <section class="main-section-background">
+        <h1 class="main-section-header">
+          EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+        </h1>
+        <button type="button" class="order-button button">Zamów usługę</button>
       </section>
       <div>
         <ul>
           <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
+            <h4 class="main-text-header">LOREM IPSUM</h4>
+            <p class="main-text-section">
               ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
               sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
+            <h4 class="main-text-header">LOREM IPSUM</h4>
+            <p class="main-text-section">
               ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
               sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
+            <h4 class="main-text-header">LOREM IPSUM</h4>
+            <p class="main-text-section">
               ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
               sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
           <li>
-            <h4>LOREM IPSUM</h4>
-            <p>
+            <h4 class="main-text-header">LOREM IPSUM</h4>
+            <p class="main-text-section">
               ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
               sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -90,7 +96,7 @@
         </ul>
       </div>
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="what-we-do">Czym się zajmujemy</h2>
         <ul>
           <li>
             <img
@@ -120,7 +126,7 @@
       </section>
 
       <section>
-        <h2>Nasz zespół</h2>
+        <h2 class="team">Nasz zespół</h2>
         <ul>
           <li>
             <img
@@ -129,7 +135,8 @@
               width="270"
               height="260"
             />
-            John Doe Product Designer
+            <span class="name">John Doe </span
+            ><span class="job-position">Product Designer</span>
           </li>
           <li>
             <img
@@ -138,7 +145,8 @@
               width="270"
               height="260"
             />
-            John Doe Frontend Developer
+            <span class="name">John Doe </span
+            ><span class="job-position">Frontend Developer</span>
           </li>
           <li>
             <img
@@ -147,7 +155,8 @@
               width="270"
               height="260"
             />
-            John Doe Marketing
+            <span class="name">John Doe </span
+            ><span class="job-position">Marketing</span>
           </li>
           <li>
             <img
@@ -156,18 +165,33 @@
               width="270"
               height="260"
             />
-            John Doe UI Designer
+            <span class="name">John Doe </span
+            ><span class="job-position">UI Designer</span>
           </li>
         </ul>
       </section>
     </main>
 
     <footer>
-      <h3>WebStudio</h3>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <ul>
-        <li><a href="mailto:info@example.com">info@example.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+      <h3>
+        <a href="/" class="logotype link-none-underline"
+          ><h3><span class="blue-text button">Web</span>Studio</h3></a
+        >
+      </h3>
+      <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
+      <ul class="contacts-list">
+        <li>
+          <a
+            href="mailto:info@devstudio.com"
+            class="link-none-underline blue-text button"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+48111111111" class="link-none-underline contacts button"
+            >+48 111 111 111</a
+          >
+        </li>
       </ul>
     </footer>
   </body>
