@@ -113,6 +113,9 @@ body {
 
 .main-section-background {
   background-color: #2f303a;
+}
+
+.main-section {
   color: #ffffff;
   display: flex;
   gap: 30px;
