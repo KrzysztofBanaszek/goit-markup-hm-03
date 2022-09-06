@@ -110,16 +110,10 @@ body {
   height: 120px;
   text-align: center;
 }
+
 .main-section-background {
   background-color: #2f303a;
-  color: var(--white);
-  /* width: 100%;
-  display: flex;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px; */
-  width: 100%;
+  color: #ffffff;
   display: flex;
   gap: 30px;
   flex-direction: column;
@@ -323,7 +317,7 @@ body {
   display: flex;
   text-align: left;
   justify-content: space-between;
-  padding: 94px 215px;
+  padding: 94px 0;
 }
 
 .second-body-section > .main-text-section:not(:last-child) {
@@ -361,6 +355,8 @@ body {
 
 .filter-button:hover {
   border: 1px solid #2196f3;
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .filter-button {
